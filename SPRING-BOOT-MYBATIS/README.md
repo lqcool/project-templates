@@ -26,7 +26,7 @@ gradle
 │                   ├—— dao                // 数据库交互层存放目录
 │                   ├—— model              // 实体存放目录
 │                   ├—— service            // 业务层存放目录
-│                   ├—— Application.java   // SpringBoot项目启动文件
+│                   ├—— Application.java   // SpringBoot项目启动文件(spring boot只会扫描启动类当前包和以下的包，放错了地方会导致某些类找不到，无法注入等情况)
 │       ├── resources                      // 项目配置文件存放目录
 │           ├—— mappers                    // 存放mapper映射的文件目录（/**/*.xml）
 │           ├—— application.properties
