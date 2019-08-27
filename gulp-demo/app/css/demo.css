@@ -1,0 +1,10 @@
+.container {
+  background-color: bisque;
+  border: 1px solid gray;
+}
+
+.container .logo {
+  width: 100px;
+  height: 30px;
+  border-radius: 2px;
+}
